@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from bina import views  
+from steam import views  
 
 urlpatterns = [
     path("admin/", admin.site.urls),
