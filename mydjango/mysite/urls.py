@@ -4,5 +4,5 @@ from bina import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("bina/", views.home, name="home"),
+    path("steam/", views.home, name="home"),
 ]
